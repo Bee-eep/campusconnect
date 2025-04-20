@@ -1,0 +1,46 @@
+.navbar {
+    background: #007bff;
+    color: white;
+    padding: 1rem 0;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .logout-btn {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .user-email {
+    margin-left: 1rem;
+    font-size: 0.9rem;
+    opacity: 0.8;
+  }
